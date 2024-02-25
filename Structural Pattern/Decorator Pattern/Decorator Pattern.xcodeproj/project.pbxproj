@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3372BA9E2B835AFC006AAB03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BA9D2B835AFC006AAB03 /* main.m */; };
+		3372BAA72B83A9F6006AAB03 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BAA62B83A9F6006AAB03 /* Window.m */; };
+		3372BAAA2B83AB00006AAB03 /* TextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BAA92B83AB00006AAB03 /* TextBox.m */; };
+		3372BAAD2B83AB26006AAB03 /* ListBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BAAC2B83AB26006AAB03 /* ListBox.m */; };
+		3372BAB02B83AB49006AAB03 /* ComponentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BAAF2B83AB49006AAB03 /* ComponentDecorator.m */; };
+		3372BAB32B83ABBF006AAB03 /* ScrollBarDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BAB22B83ABBF006AAB03 /* ScrollBarDecorator.m */; };
+		3372BAB62B83AC13006AAB03 /* BlackBorderDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372BAB52B83AC13006AAB03 /* BlackBorderDecorator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3372BA982B835AFC006AAB03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3372BA9A2B835AFC006AAB03 /* Decorator Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Decorator Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3372BA9D2B835AFC006AAB03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3372BAA42B83A9C3006AAB03 /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		3372BAA52B83A9F6006AAB03 /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		3372BAA62B83A9F6006AAB03 /* Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		3372BAA82B83AB00006AAB03 /* TextBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBox.h; sourceTree = "<group>"; };
+		3372BAA92B83AB00006AAB03 /* TextBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBox.m; sourceTree = "<group>"; };
+		3372BAAB2B83AB26006AAB03 /* ListBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListBox.h; sourceTree = "<group>"; };
+		3372BAAC2B83AB26006AAB03 /* ListBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListBox.m; sourceTree = "<group>"; };
+		3372BAAE2B83AB49006AAB03 /* ComponentDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentDecorator.h; sourceTree = "<group>"; };
+		3372BAAF2B83AB49006AAB03 /* ComponentDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComponentDecorator.m; sourceTree = "<group>"; };
+		3372BAB12B83ABBF006AAB03 /* ScrollBarDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollBarDecorator.h; sourceTree = "<group>"; };
+		3372BAB22B83ABBF006AAB03 /* ScrollBarDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollBarDecorator.m; sourceTree = "<group>"; };
+		3372BAB42B83AC13006AAB03 /* BlackBorderDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackBorderDecorator.h; sourceTree = "<group>"; };
+		3372BAB52B83AC13006AAB03 /* BlackBorderDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackBorderDecorator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3372BA972B835AFC006AAB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3372BA912B835AFC006AAB03 = {
+			isa = PBXGroup;
+			children = (
+				3372BA9C2B835AFC006AAB03 /* Decorator Pattern */,
+				3372BA9B2B835AFC006AAB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3372BA9B2B835AFC006AAB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3372BA9A2B835AFC006AAB03 /* Decorator Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3372BA9C2B835AFC006AAB03 /* Decorator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				3372BA9D2B835AFC006AAB03 /* main.m */,
+				3372BAA42B83A9C3006AAB03 /* Component.h */,
+				3372BAA52B83A9F6006AAB03 /* Window.h */,
+				3372BAA62B83A9F6006AAB03 /* Window.m */,
+				3372BAA82B83AB00006AAB03 /* TextBox.h */,
+				3372BAA92B83AB00006AAB03 /* TextBox.m */,
+				3372BAAB2B83AB26006AAB03 /* ListBox.h */,
+				3372BAAC2B83AB26006AAB03 /* ListBox.m */,
+				3372BAAE2B83AB49006AAB03 /* ComponentDecorator.h */,
+				3372BAAF2B83AB49006AAB03 /* ComponentDecorator.m */,
+				3372BAB12B83ABBF006AAB03 /* ScrollBarDecorator.h */,
+				3372BAB22B83ABBF006AAB03 /* ScrollBarDecorator.m */,
+				3372BAB42B83AC13006AAB03 /* BlackBorderDecorator.h */,
+				3372BAB52B83AC13006AAB03 /* BlackBorderDecorator.m */,
+			);
+			path = "Decorator Pattern";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3372BA992B835AFC006AAB03 /* Decorator Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3372BAA12B835AFC006AAB03 /* Build configuration list for PBXNativeTarget "Decorator Pattern" */;
+			buildPhases = (
+				3372BA962B835AFC006AAB03 /* Sources */,
+				3372BA972B835AFC006AAB03 /* Frameworks */,
+				3372BA982B835AFC006AAB03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decorator Pattern";
+			productName = "Decorator Pattern";
+			productReference = 3372BA9A2B835AFC006AAB03 /* Decorator Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3372BA922B835AFC006AAB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3372BA992B835AFC006AAB03 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3372BA952B835AFC006AAB03 /* Build configuration list for PBXProject "Decorator Pattern" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3372BA912B835AFC006AAB03;
+			productRefGroup = 3372BA9B2B835AFC006AAB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3372BA992B835AFC006AAB03 /* Decorator Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3372BA962B835AFC006AAB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3372BAAA2B83AB00006AAB03 /* TextBox.m in Sources */,
+				3372BAB62B83AC13006AAB03 /* BlackBorderDecorator.m in Sources */,
+				3372BAB02B83AB49006AAB03 /* ComponentDecorator.m in Sources */,
+				3372BAAD2B83AB26006AAB03 /* ListBox.m in Sources */,
+				3372BA9E2B835AFC006AAB03 /* main.m in Sources */,
+				3372BAB32B83ABBF006AAB03 /* ScrollBarDecorator.m in Sources */,
+				3372BAA72B83A9F6006AAB03 /* Window.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3372BA9F2B835AFC006AAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3372BAA02B835AFC006AAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3372BAA22B835AFC006AAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3372BAA32B835AFC006AAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3372BA952B835AFC006AAB03 /* Build configuration list for PBXProject "Decorator Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372BA9F2B835AFC006AAB03 /* Debug */,
+				3372BAA02B835AFC006AAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3372BAA12B835AFC006AAB03 /* Build configuration list for PBXNativeTarget "Decorator Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372BAA22B835AFC006AAB03 /* Debug */,
+				3372BAA32B835AFC006AAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3372BA922B835AFC006AAB03 /* Project object */;
+}

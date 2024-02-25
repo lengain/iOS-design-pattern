@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3372B9BC2B80E9F3006AAB03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9BB2B80E9F3006AAB03 /* main.m */; };
+		3372B9C52B80EA5C006AAB03 /* SpringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9C42B80EA5C006AAB03 /* SpringButton.m */; };
+		3372B9C82B80EAA0006AAB03 /* SummerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9C72B80EAA0006AAB03 /* SummerButton.m */; };
+		3372B9CC2B80EAEB006AAB03 /* SpringTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9CB2B80EAEB006AAB03 /* SpringTextField.m */; };
+		3372B9CF2B80EB25006AAB03 /* SummerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9CE2B80EB25006AAB03 /* SummerTextField.m */; };
+		3372B9D32B80EFC6006AAB03 /* SpringComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9D22B80EFC6006AAB03 /* SpringComboBox.m */; };
+		3372B9D62B80F00C006AAB03 /* SummerComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9D52B80F00C006AAB03 /* SummerComboBox.m */; };
+		3372B9DA2B80F0EB006AAB03 /* SpringSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9D92B80F0EB006AAB03 /* SpringSkinFactory.m */; };
+		3372B9DD2B80F16C006AAB03 /* SummerSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372B9DC2B80F16C006AAB03 /* SummerSkinFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3372B9B62B80E9F3006AAB03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3372B9B82B80E9F3006AAB03 /* Abstract Factory Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Abstract Factory Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3372B9BB2B80E9F3006AAB03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3372B9C22B80EA34006AAB03 /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		3372B9C32B80EA5C006AAB03 /* SpringButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringButton.h; sourceTree = "<group>"; };
+		3372B9C42B80EA5C006AAB03 /* SpringButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringButton.m; sourceTree = "<group>"; };
+		3372B9C62B80EAA0006AAB03 /* SummerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerButton.h; sourceTree = "<group>"; };
+		3372B9C72B80EAA0006AAB03 /* SummerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerButton.m; sourceTree = "<group>"; };
+		3372B9C92B80EACB006AAB03 /* TextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		3372B9CA2B80EAEB006AAB03 /* SpringTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringTextField.h; sourceTree = "<group>"; };
+		3372B9CB2B80EAEB006AAB03 /* SpringTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringTextField.m; sourceTree = "<group>"; };
+		3372B9CD2B80EB25006AAB03 /* SummerTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerTextField.h; sourceTree = "<group>"; };
+		3372B9CE2B80EB25006AAB03 /* SummerTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerTextField.m; sourceTree = "<group>"; };
+		3372B9D02B80EB4C006AAB03 /* ComboBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComboBox.h; sourceTree = "<group>"; };
+		3372B9D12B80EFC6006AAB03 /* SpringComboBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringComboBox.h; sourceTree = "<group>"; };
+		3372B9D22B80EFC6006AAB03 /* SpringComboBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringComboBox.m; sourceTree = "<group>"; };
+		3372B9D42B80F00C006AAB03 /* SummerComboBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerComboBox.h; sourceTree = "<group>"; };
+		3372B9D52B80F00C006AAB03 /* SummerComboBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerComboBox.m; sourceTree = "<group>"; };
+		3372B9D72B80F055006AAB03 /* SkinFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkinFactory.h; sourceTree = "<group>"; };
+		3372B9D82B80F0EB006AAB03 /* SpringSkinFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringSkinFactory.h; sourceTree = "<group>"; };
+		3372B9D92B80F0EB006AAB03 /* SpringSkinFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringSkinFactory.m; sourceTree = "<group>"; };
+		3372B9DB2B80F16C006AAB03 /* SummerSkinFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerSkinFactory.h; sourceTree = "<group>"; };
+		3372B9DC2B80F16C006AAB03 /* SummerSkinFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerSkinFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3372B9B52B80E9F3006AAB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3372B9AF2B80E9F3006AAB03 = {
+			isa = PBXGroup;
+			children = (
+				3372B9BA2B80E9F3006AAB03 /* Abstract Factory Pattern */,
+				3372B9B92B80E9F3006AAB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3372B9B92B80E9F3006AAB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3372B9B82B80E9F3006AAB03 /* Abstract Factory Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3372B9BA2B80E9F3006AAB03 /* Abstract Factory Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				3372B9BB2B80E9F3006AAB03 /* main.m */,
+				3372B9C22B80EA34006AAB03 /* Button.h */,
+				3372B9C32B80EA5C006AAB03 /* SpringButton.h */,
+				3372B9C42B80EA5C006AAB03 /* SpringButton.m */,
+				3372B9C62B80EAA0006AAB03 /* SummerButton.h */,
+				3372B9C72B80EAA0006AAB03 /* SummerButton.m */,
+				3372B9C92B80EACB006AAB03 /* TextField.h */,
+				3372B9CA2B80EAEB006AAB03 /* SpringTextField.h */,
+				3372B9CB2B80EAEB006AAB03 /* SpringTextField.m */,
+				3372B9CD2B80EB25006AAB03 /* SummerTextField.h */,
+				3372B9CE2B80EB25006AAB03 /* SummerTextField.m */,
+				3372B9D02B80EB4C006AAB03 /* ComboBox.h */,
+				3372B9D12B80EFC6006AAB03 /* SpringComboBox.h */,
+				3372B9D22B80EFC6006AAB03 /* SpringComboBox.m */,
+				3372B9D42B80F00C006AAB03 /* SummerComboBox.h */,
+				3372B9D52B80F00C006AAB03 /* SummerComboBox.m */,
+				3372B9D72B80F055006AAB03 /* SkinFactory.h */,
+				3372B9D82B80F0EB006AAB03 /* SpringSkinFactory.h */,
+				3372B9D92B80F0EB006AAB03 /* SpringSkinFactory.m */,
+				3372B9DB2B80F16C006AAB03 /* SummerSkinFactory.h */,
+				3372B9DC2B80F16C006AAB03 /* SummerSkinFactory.m */,
+			);
+			path = "Abstract Factory Pattern";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3372B9B72B80E9F3006AAB03 /* Abstract Factory Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3372B9BF2B80E9F3006AAB03 /* Build configuration list for PBXNativeTarget "Abstract Factory Pattern" */;
+			buildPhases = (
+				3372B9B42B80E9F3006AAB03 /* Sources */,
+				3372B9B52B80E9F3006AAB03 /* Frameworks */,
+				3372B9B62B80E9F3006AAB03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abstract Factory Pattern";
+			productName = "Abstract Factory Pattern";
+			productReference = 3372B9B82B80E9F3006AAB03 /* Abstract Factory Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3372B9B02B80E9F3006AAB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3372B9B72B80E9F3006AAB03 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3372B9B32B80E9F3006AAB03 /* Build configuration list for PBXProject "Abstract Factory Pattern" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3372B9AF2B80E9F3006AAB03;
+			productRefGroup = 3372B9B92B80E9F3006AAB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3372B9B72B80E9F3006AAB03 /* Abstract Factory Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3372B9B42B80E9F3006AAB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3372B9CC2B80EAEB006AAB03 /* SpringTextField.m in Sources */,
+				3372B9D32B80EFC6006AAB03 /* SpringComboBox.m in Sources */,
+				3372B9C52B80EA5C006AAB03 /* SpringButton.m in Sources */,
+				3372B9DD2B80F16C006AAB03 /* SummerSkinFactory.m in Sources */,
+				3372B9BC2B80E9F3006AAB03 /* main.m in Sources */,
+				3372B9CF2B80EB25006AAB03 /* SummerTextField.m in Sources */,
+				3372B9D62B80F00C006AAB03 /* SummerComboBox.m in Sources */,
+				3372B9DA2B80F0EB006AAB03 /* SpringSkinFactory.m in Sources */,
+				3372B9C82B80EAA0006AAB03 /* SummerButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3372B9BD2B80E9F3006AAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3372B9BE2B80E9F3006AAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3372B9C02B80E9F3006AAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3372B9C12B80E9F3006AAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LM2HK4U8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3372B9B32B80E9F3006AAB03 /* Build configuration list for PBXProject "Abstract Factory Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372B9BD2B80E9F3006AAB03 /* Debug */,
+				3372B9BE2B80E9F3006AAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3372B9BF2B80E9F3006AAB03 /* Build configuration list for PBXNativeTarget "Abstract Factory Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3372B9C02B80E9F3006AAB03 /* Debug */,
+				3372B9C12B80E9F3006AAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3372B9B02B80E9F3006AAB03 /* Project object */;
+}
